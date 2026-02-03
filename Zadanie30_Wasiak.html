@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="utf-8">
+    <title>Zadanie 30</title>
+</head>
+
+<body>
+
+<script type="text/javascript">
+
+var Telefon =
+{
+    marka: "IPhone",
+    model: "17",
+    siec: "5G",
+
+    Telefon_wyswietl_Wasiak: function()
+    {
+        document.write("<h1><i><b>Nazwa obiektu:</b></i> Telefon<br><br></h1>");
+        document.write("<h3><b><i>Wlasciwosci:</b></i></h3><br>");
+        document.write("<b>marka: </b>" + this.marka + "<br>");
+        document.write("<b>model: </b>" + this.model + "<br>");
+        document.write("<b>siec: </b>" + this.siec + "<br><br>");
+
+        document.write("<i><b>Metoda:</b></i> Telefon_wyswietl_Wasiak<br>");
+    }
+};
+
+Telefon.Telefon_wyswietl_Wasiak();
+</script>
+
+</body>
+</html>
